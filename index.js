@@ -24,7 +24,7 @@ con.connect(function(err) {
 
 app.use(bodyParser.urlencoded({ extended: false }));
 const corsOptions ={
-    origin: 'https://car-rental-project.onrender.com',
+    origin: 'https://pranshunagar01.github.io/carrentalproject6_v1',
     credentials:true,            //access-control-allow-credentials:true
     optionSuccessStatus:200
 }
@@ -33,7 +33,7 @@ app.use(express.json());
 
 // Allow CORS from "http://localhost:3000"
 app.use(function(req, res, next) {
-    res.header("Access-Control-Allow-Origin", "https://car-rental-project.onrender.com");
+    res.header("Access-Control-Allow-Origin", "https://pranshunagar01.github.io/carrentalproject6_v1");
     res.header("Access-Control-Allow-Headers", "Origin, X-Requested-With, Content-Type, Accept");
     next();
 });

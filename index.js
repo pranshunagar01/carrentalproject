@@ -24,7 +24,7 @@ con.connect(function(err) {
 
 app.use(bodyParser.urlencoded({ extended: false }));
 const corsOptions ={
-    origin: 'https://pranshunagar01.github.io/',
+    origin: 'https://pranshunagar01.github.io',
     credentials:true,            //access-control-allow-credentials:true
     optionSuccessStatus:200
 }
@@ -33,7 +33,7 @@ app.use(express.json());
 
 // Allow CORS from "http://localhost:3000"
 app.use(function(req, res, next) {
-    res.header("Access-Control-Allow-Origin", "https://pranshunagar01.github.io/");
+    res.header("Access-Control-Allow-Origin", "https://pranshunagar01.github.io");
     res.header("Access-Control-Allow-Headers", "Origin, X-Requested-With, Content-Type, Accept");
     next();
 });

@@ -24,7 +24,7 @@ con.connect(function(err) {
 
 app.use(bodyParser.urlencoded({ extended: false }));
 const corsOptions ={
-    origin:'http://localhost:3000', 
+    origin:'https://pranshunagar01.github.io/carrentalprojectgroup6', 
     credentials:true,            //access-control-allow-credentials:true
     optionSuccessStatus:200
 }

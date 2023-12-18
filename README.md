@@ -17,10 +17,12 @@ Installing a Component
 ```bash
 heliocrafts i <componentID>
 heliocrafts install <componentID>
+```
 
 Example:
 ```bash
 heliocrafts i 4dwnwj2342h3nd2d2222222
+```
 
 ## Options
 -s, --source: Install with source code of a component
@@ -32,6 +34,7 @@ Examples
 ```bash
 heliocrafts --version
 heliocrafts --help
+```
 
 ## Contributing
 Contributions are welcome! Please read the CONTRIBUTING.md file for details on our code of conduct, and the process for submitting pull requests to us.

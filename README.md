@@ -4,9 +4,10 @@
 ![Node](https://img.shields.io/badge/node-%3E%3D10.0.0-brightgreen.svg)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-Heliocrafts CLI is a tool for seamless installation of components via the command line.
-
 <a href="https://www.heliocrafts.com">Heliocrafts</a> is a platform to share your web components with the world
+
+
+Heliocrafts CLI is a tool for seamless installation of components via the command line from Heliocrafts
 
 ## Installation
 

@@ -10,6 +10,7 @@ Heliocrafts CLI is a tool for seamless installation of components via the comman
 
 ```bash
 npm install -g heliocrafts
+```
 
 ## Usage
 Installing a Component

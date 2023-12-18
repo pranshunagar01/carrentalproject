@@ -6,6 +6,8 @@
 
 Heliocrafts CLI is a tool for seamless installation of components via the command line.
 
+<a href="https://www.heliocrafts.com">Heliocrafts</a> is a platform to share your web components with the world
+
 ## Installation
 
 ```bash
@@ -37,11 +39,10 @@ heliocrafts --help
 ```
 
 ## Contributing
-Contributions are welcome! Please read the CONTRIBUTING.md file for details on our code of conduct, and the process for submitting pull requests to us.
+Contributions are welcome! Feel free to open issues or submit pull requests.
 
 License
 This project is licensed under the MIT License - see the LICENSE file for details.
 
 ## Support
 For support, please contact support@heliocrafts.com.
-
